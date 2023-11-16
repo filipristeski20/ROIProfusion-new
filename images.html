@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="imagesstyle.css">
+</head>
+
+<body>
+
+    <div class="wrapper">
+        <div class="slider">1</div>
+        <div class="slider">2</div>
+        <div class="slider">3</div>
+        <div class="slider">4</div>
+        <div class="slider">5</div>
+    </div>
+
+    <script>
+        const wrapper = document.querySelector('.wrapper')
+
+        let pressed = false
+        let startX = 0
+
+        wrapper.addEventListener('mousedown', function (e) {
+            pressed = true
+            startX = e.clientX
+            this.style.cursor = 'grabbing'
+        })
+
+        wrapper.addEventListener('mouseleave', function (e) {
+            pressed = false
+        })
+
+        window.addEventListener('mouseup', function (e) {
+            pressed = false
+            wrapper.style.cursor = 'grab'
+        })
+
+        wrapper.addEventListener('mousemove', function (e) {
+            if (!pressed) {
+                return
+            }
+
+            this.scrollLeft += startX - e.clientX
+        })
+    </script>
+
+</body>
+
+</html>

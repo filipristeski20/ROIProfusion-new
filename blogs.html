@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ROIProfusion - Blog Posts</title>
+    <link rel="stylesheet" href="styleblogs.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+
+    <div class="navigation">
+        <div class="navigationtop">
+            <div class="logo"><a href="#"><img src="/images/novologo.png" alt="logo"></a></div>
+            <div class="hamburgermenu"><a href="#"><img src="/images/hamburgermenu.svg" alt="hamburgermenu"
+                        class="theHamburgerMenu"></a>
+            </div>
+            <div class="navigationbar">
+                <div class="exitHamburger"><a href="#"><img src="/images/x.svg" alt="exit hamburger"></a></div>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="index.html#featuresSection">Features</a></li>
+                    <li><a href="index.html#howitworksSection">How It Works</a></li>
+                    <li><a href="index.html#faqSection">FAQ</a></li>
+                    <li><a href="#">Blog</a></li>
+                </ul>
+            </div>
+            <div class="contactUsButton">
+                <button> <a href="https://calendly.com/roi-profusion/30min?month=2023-11">Contact Us</a></button>
+            </div>
+        </div>
+    </div>
+
+    <section class="mainSection">
+        <div class="mainSectionContainer">
+            <h1>discover our newest blog posts.</h1>
+            <div class="elements">
+                <div class="element1">
+                    <div class="image1">
+                        <img src="images/imagenumber1.jpeg" alt="blog post image">
+                    </div>
+                    <div class="element1text">
+                        <h2><a href="/blogpost1.html">Why cold email works ?</a></h2>
+                        <h3>Are you tired of getting constant interruptions from ...</h3>
+                    </div>
+                </div>
+
+                <div class="element2">
+                    <div class="image2">
+                        <img src="images/imagenumber2.jpeg" alt="blog post image">
+                    </div>
+                    <div class="element2text">
+                        <h2><a href="/blogpost2.html">Cold call vs cold email</a></h2>
+                        <h3>If you're in the world of sales or marketing, you've likely heard of ...</h3>
+                    </div>
+                </div>
+
+                <div class="element3">
+                    <div class="image3">
+                        <img src="images/imagenumber3.jpeg" alt="blog post image">
+                    </div>
+                    <div class="element3text">
+                        <h2><a href="/blogpost3.html">Cold call vs cold email</a></h2>
+                        <h3>If you're in the world of sales or marketing, you've likely heard of ...</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="footer">
+
+        <div class="footerContainer">
+            <div class="navigation">
+                <h2 class="navigationFooter">NAVIGATION</h2>
+                <ul>
+                    <li><a href="/images.html">Home</a></li>
+                    <li><a href="index.html#featuresSection">Features</a></li>
+                    <li><a href="index.html#howitworksSection">How It Works</a></li>
+                    <li><a href="index.html#faqSection">FAQ</a></li>
+                    <li><a href="/blogs.html">Blog</a></li>
+                </ul>
+            </div>
+
+            <div class="forYou">
+                <h2 class="forYouText">FOR YOU</h2>
+                <ul>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Terms and Conditions</a></li>
+                </ul>
+            </div>
+
+            <div class="socialMedia">
+                <h2 class="socialMediaText">SOCIAL MEDIA</h2>
+                <ul>
+                    <li><a
+                            href="https://twitter.com/adelina_bun?s=21&t=F0ufB-ROJRcUyILMocISQw&fbclid=IwAR3QHXxg9ohn9XbQAmTxN2e0O40Pn2GctUkzFj7L-IUVUNbd6xe6T4DiH8c"><img
+                                src="images/twittervector.svg" alt="twitter logo" class="instaLogo"></a></li>
+                </ul>
+            </div>
+
+
+        </div>
+
+    </section>
+
+    <script>
+        const menu = document.querySelector('.theHamburgerMenu')
+        const close = document.querySelector('.exitHamburger')
+        const nav = document.querySelector('.navigationbar')
+
+        menu.addEventListener('click', () => {
+
+            nav.classList.add('openmenu')
+        });
+
+        close.addEventListener('click', () => {
+            nav.classList.remove('openmenu')
+        })
+
+
+    </script>
+
+
+
+</body>
+
+</html>

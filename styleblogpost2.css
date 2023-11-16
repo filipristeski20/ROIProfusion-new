@@ -1,0 +1,523 @@
+html{
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+
+body{
+    box-sizing: border-box;
+    font-family: 'Poppins';
+    margin: 0;
+    background-color: #242738;
+}
+
+.navigation .navigationtop{
+    max-width: 35rem;
+    max-height: 5.3rem;
+    border-radius: 3.0rem;
+    margin: 0 auto;
+    margin-top: 4.4rem;
+    background-color: #F5F5F5;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0;
+
+}
+
+.navigation .navigationtop .logo a img{
+    width: 13.8rem;
+    margin-left: 1.3rem;
+    margin-top: 0.9rem;
+    margin-bottom: 0.9rem;
+}
+
+.navigation .navigationtop .hamburgermenu a img{
+    width: 3.5rem;
+    height: 3.5rem;
+    margin-right: 2.3rem;
+}
+
+.navigationbar{
+    position: fixed;
+    background-color: #06C269;
+    right: 0;
+    top: 0;
+    height: 100vh;
+    width: 90%;
+    z-index: 999;
+    font-size: 1.5rem;
+    transform: translate(100%);
+    transition: transform 0.5s ease-in-out;
+}
+
+.navigationbar .exitHamburger{
+    margin-top: 5rem;
+    margin-left: 5rem;
+    padding: 0;
+}
+
+.navigationbar ul{
+    list-style-type: none;
+    padding: 0;
+    margin-top: 7rem;
+}
+
+.navigationbar ul li{
+    margin-top: 2rem;
+    margin-left: 5rem;
+}
+
+.navigationbar ul li a{
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+    margin: 0;
+}
+
+.contactUsButton{
+    display: none;
+}
+
+
+
+/* the main landing section mobile*/ 
+
+
+
+.mainSection .mainSectionContainer{
+    max-width: 35rem;
+    margin: 0 auto;
+}
+
+.mainSection .mainSectionContainer h1{
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 3rem;    
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+    margin-top: 5rem;
+}
+
+.mainSection .mainSectionContainer .blogLine{
+    width: 25rem;
+    height: 0.2rem;
+    background: #06C269;
+    margin: 0;
+    margin-top: 5rem;
+}
+
+
+.mainSection .mainSectionContainer h3{
+    color: white;
+    text-align: left;
+    font-family: Poppins;
+    font-size: 1.6rem;
+    font-weight: 300;
+}
+
+.mainSection .mainSectionContainer h2{
+    color: white;
+    text-align: left;
+    font-family: Poppins;
+    font-size: 2.1rem;
+    font-weight: 600;
+}
+
+
+.mainSection .mainSectionContainer .firstH3{
+    margin-top: 2.5rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*navigation bottom*/
+
+
+
+.openmenu{
+    transform: translateX(0%);
+}
+
+
+.footer{
+    border-top: 0.1rem solid #06C269;
+    background: #1C1E29;
+    margin-top: 12.1rem;
+}
+
+.footer .footerContainer{
+    max-width: 35rem;
+    margin: 0 auto;
+    padding: 7.0rem 0;
+}
+
+.footer .footerContainer .navigation .navigationFooter{
+
+    color: #06C269;
+    font-family: Poppins;
+    font-size: 2.2rem;    
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+    margin: 0;
+    margin-left: 10.4rem;
+    margin-right: 10.4rem;
+}
+
+.footer .footerContainer .forYou .forYouText{
+
+    color: #06C269;
+    font-family: Poppins;
+    font-size: 2.2rem;    
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+    margin: 0;
+    margin-top: 10.8rem;
+    margin-left: 12.7rem;
+    margin-right: 12.7rem;
+}
+
+.footer .footerContainer .socialMedia .socialMediaText{
+
+    color: #06C269;
+    font-family: Poppins;
+    font-size: 2.2rem;    
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+    margin: 0;
+    margin-left: 9.7rem;
+    margin-right: 9.6rem;
+}
+
+.footer .footerContainer .navigation ul li a{
+    text-decoration: none;
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 1.7rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.footer .footerContainer .navigation ul li {
+    list-style-type: none;
+}
+
+.footer .footerContainer .navigation ul  {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.footer .footerContainer .navigation ul li {
+    margin-top: 1.2rem;
+}
+
+.footer .footerContainer .forYou ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.7rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.footer .footerContainer .forYou ul{
+    list-style-type: none;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    margin-top: 2.1rem;
+}
+
+.footer .footerContainer .forYou ul li {
+    margin-top: 1.2rem;
+}
+
+.footer .footerContainer .socialMedia {
+    margin-top: 10.8rem;
+}
+
+.footer .footerContainer .socialMedia ul {
+    display: flex;
+    margin: 0;
+    margin-top: 2.1rem;
+    margin-left: 12.3rem;
+    padding: 0;
+}
+footer .footerContainer .socialMedia ul li{
+
+    margin: 0;
+    padding: 0;
+    
+}
+
+.footer .footerContainer .socialMedia ul li .faceLogo{
+    margin-left: 3.4rem;
+}
+
+@media only screen and (min-width: 550px){
+
+
+    .navigation .navigationtop{
+        max-width: 120.2rem;
+        max-height: 7.5rem;
+        margin: 3.4rem auto;
+        display: flex;
+        margin-bottom: 0;
+
+    }
+
+    .navigation .navigationtop .logo a img{
+        width: 20rem;
+
+    }
+
+    .navigation .navigationtop .hamburgermenu{
+        display: none;
+    }
+
+    .navigation .navigationtop .navigationbar .exitHamburger{
+        display: none;
+    }
+
+    .navigation .navigationtop .navigationbar{
+
+        margin: 0;
+        width: auto;
+        height: auto;
+        width: 100%;
+        position: unset; 
+        transform: none;
+        transition: none;
+
+        }
+
+    .navigation .navigationtop .navigationbar ul{
+        display: flex;
+        margin: 0;
+        padding: 0;
+        justify-content: center;
+        background-color: #F5F5F5;
+    }
+
+    .navigation .navigationtop .navigationbar ul li{
+        margin: 0;
+        padding: 0;
+        padding: 0 3.3rem;
+    }
+
+
+    .navigation .navigationtop .contactUsButton {
+        display: block;
+        border-radius: 2.0rem;
+        background: #06C269;
+        margin-right: 1.9rem;
+    }
+
+    .navigation .navigationtop .contactUsButton button{
+        border-radius: 2.0rem;
+        background: #06C269;
+        border: #06C269;
+        width: 17.4rem;
+        height: 4.8rem;
+        color: #F5F5F5;
+        font-family: Poppins;
+        font-size: 1.8rem;        
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        cursor: pointer;
+    }
+
+    .mainSection .mainSectionContainer{
+        max-width: 120rem;
+        margin: 0 auto;
+    }
+
+    .mainSection .mainSectionContainer h1{
+        margin: 0;
+        margin-top: 6.3rem;
+    }
+
+    .mainSection .mainSectionContainer .blogLine{
+        margin: 0;
+        margin-top: 6.3rem;
+        width: 80.6001rem;
+        height: 0.2rem;
+    }
+
+    .mainSection .mainSectionContainer .firstH3{
+        margin: 0;
+        margin-top: 3.4rem;
+    }
+
+    .mainSection .mainSectionContainer h2{
+        color: #FFF;
+        font-family: Poppins;
+        font-size: 2.2rem;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+    }
+
+    .mainSection .mainSectionContainer h3{
+        color: white;
+        font-size: 1.8rem;
+        font-weight: 300;
+    }
+
+            
+
+
+
+
+
+
+
+   
+
+  .footer .footerContainer{
+    max-width: 120rem;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer .footerContainer .navigation .navigationFooter{
+    margin: 0;
+    padding: 0;
+    text-align: left;
+    color: #06C269;
+    font-family: Poppins;
+    font-size: 2.5rem;       
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+.footer .footerContainer .navigation ul{
+    margin: 0;
+    padding: 0;
+    margin-top: 3.1rem;
+}
+
+
+
+
+
+.footer .footerContainer .navigation ul li{
+    margin: 0;
+    padding: 0;
+    text-align: left;
+    margin-top: 1.1rem;
+}
+
+.footer .footerContainer .forYou .forYouText{
+
+    margin: 0;
+    padding: 0;
+    text-align: left;
+    color: #06C269;
+    font-family: Poppins;
+    font-size: 2.5rem;       
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+
+}
+
+.footer .footerContainer .forYou ul{
+    margin: 0;
+    margin-top: 3.1rem;
+}
+
+.footer .footerContainer .forYou ul li{
+    margin: 0;
+    padding: 0;
+    text-align: left;
+    margin-top: 1.1rem;
+    
+}
+
+.footer .footerContainer .socialMedia{
+    margin: 0;
+    padding: 0;
+}
+
+.footer .footerContainer .socialMedia .socialMediaText{
+
+    margin: 0;
+    padding: 0;
+    text-align: left;
+    color: #06C269;
+    font-family: Poppins;
+    font-size: 2.5rem;       
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+
+}
+
+.footer .footerContainer .socialMedia ul {
+    margin: 0;
+    padding: 0;
+    text-align: left;
+    
+}
+
+.footer .footerContainer .socialMedia ul li {
+    list-style-type: none;
+}
+
+.footer .footerContainer .socialMedia ul{
+    margin: 0;
+    margin-top: 3.1rem;
+}
+
+.footer .footerContainer .socialMedia ul li a img{
+    width: 4.5rem;
+}
+
+.navigation .navigationtop .contactUsButton button a{
+    text-decoration: none;
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+    
