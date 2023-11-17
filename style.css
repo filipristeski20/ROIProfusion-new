@@ -451,7 +451,7 @@ body{
 
 .imagesText .imagesTextWrapper h1{
     margin: 0;
-    margin-top: 5rem;
+    margin-top: 0rem;
 }
 
 .images{
@@ -1648,6 +1648,22 @@ footer .footerContainer .socialMedia ul li{
     
 }
 
+.provenSystem .provenSystemContainer .managing1{
+
+    font-size: 2.5rem;
+    text-align: center;
+    margin-top: 0rem;
+}
+
+.newHeadline .newHeadlineContainer{
+    max-width: 35rem;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 10rem;
+    text-transform: uppercase;
+    font-size: 2.5rem;
+}
+
 
 @media only screen and (min-width: 550px){
 
@@ -1910,7 +1926,7 @@ footer .footerContainer .socialMedia ul li{
     }
 
     .descriptionSection .descriptionSectionContainer .descriptions{
-        margin-top: 7.4rem;
+        margin-top: 10.4rem;
     }
 
 
@@ -2397,7 +2413,7 @@ footer .footerContainer .socialMedia ul li{
     .faq .faqContainer{
         max-width: 120rem;
         margin: 0 auto;
-        margin-top: 10rem;
+        margin-top: 1.5rem;
     }
 
     .faq .faqContainer h1{
@@ -2538,7 +2554,7 @@ footer .footerContainer .socialMedia ul li{
         font-weight: 700;
         line-height: normal;
         text-transform: uppercase;
-        margin-top: 9.2rem;
+        margin-top: 5.2rem;
         margin-left: 6.4rem;
         width: 83.4rem;
     }
@@ -2985,7 +3001,7 @@ footer .footerContainer .socialMedia ul li{
     }
 
     .provenSystem .provenSystemContainer .elements{
-        padding-bottom: 8.8rem;
+        padding-bottom: 3.5rem;
     }
 
     .brekingLineSection .breakingLineSectionContainer{
@@ -3008,8 +3024,9 @@ footer .footerContainer .socialMedia ul li{
 
     
     .imagesText {
-        margin-top: 20rem;
+        margin-top: 11rem;
         margin-bottom: 5rem;
+        text-align: center;
     }
 
     .images .wrapper .carousel1 .firstpic{
@@ -3053,7 +3070,7 @@ footer .footerContainer .socialMedia ul li{
     }
 
     .provenSystem .provenSystemContainer {
-        padding-bottom: 80px;
+        padding-bottom: 50px;
         text-align: center;
         
     }
@@ -3085,7 +3102,7 @@ footer .footerContainer .socialMedia ul li{
 
         font-size: 3.5rem;
         text-align: center;
-        margin-top: 10rem;
+        margin-top: 6rem;
     }
 
     .provenSystem .provenSystemContainer .elements{
@@ -3100,6 +3117,15 @@ footer .footerContainer .socialMedia ul li{
         text-align: left;
 
         
+    }
+
+    .newHeadline .newHeadlineContainer{
+        max-width: 120rem;
+        margin: 0 auto;
+        text-align: center;
+        margin-top: 10rem;
+        text-transform: uppercase;
+        font-size: 2.2rem;
     }
    
         
