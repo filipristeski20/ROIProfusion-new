@@ -964,7 +964,7 @@ body{
     line-height: normal;
     text-transform: uppercase;
     margin-top: 2rem;
-    margin-left: 6.8rem;
+    margin-left: 1rem;
 }
 
 .provenSystem .provenSystemContainer .elements .marketResearch .market .break1{
@@ -1620,6 +1620,32 @@ footer .footerContainer .socialMedia ul li{
 
 .footer .footerContainer .socialMedia ul li a {
     padding: 1rem;
+}
+
+.headline .headlineWrapper{
+    max-width: 35rem;
+    margin: 0 auto;
+}
+
+.headline .headlineWrapper h1{
+    text-align: center;
+    font-size: 3rem;
+    margin-top: 10rem;
+}
+
+.provenSystem .provenSystemContainer{
+    text-align: center;
+}
+
+.provenSystem .provenSystemContainer img{
+    margin-top: 70px;
+    
+}
+
+.provenSystem .provenSystemContainer h3{
+    font-size: 1.8rem;
+    text-transform: uppercase;
+    
 }
 
 
@@ -3014,6 +3040,71 @@ footer .footerContainer .socialMedia ul li{
         margin-top: 10rem;
         font-weight: 500;
     }
+
+    .headline .headlineWrapper{
+        max-width: 120rem;
+        margin: 0 auto;
+    }
+    
+    .headline .headlineWrapper h1{
+        text-align: center;
+        font-size: 3rem;
+        margin-top: 10rem;
+    }
+
+    .provenSystem .provenSystemContainer {
+        padding-bottom: 80px;
+        text-align: center;
+        
+    }
+
+    .provenSystem .provenSystemContainer h3{
+       text-align: center;
+        
+        
+    }
+
+    .provenSystem .provenSystemContainer img{
+        text-align: left;
+         
+         
+     }
+
+    .provenSystem .provenSystemContainer .elements1{
+        display: flex;
+        justify-content: space-around;
+        
+    }
+
+    .provenSystem .provenSystemContainer .elements1 img{
+        text-align: left;
+        
+    }
+
+    .provenSystem .provenSystemContainer .managing1{
+
+        font-size: 3.5rem;
+        text-align: center;
+        margin-top: 10rem;
+    }
+
+    .provenSystem .provenSystemContainer .elements{
+
+        text-align: left;
+
+        
+    }
+
+    .provenSystem .provenSystemContainer .elements h3{
+
+        text-align: left;
+
+        
+    }
+   
+        
+    
+    
 
    
 

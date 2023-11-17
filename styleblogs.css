@@ -585,21 +585,22 @@ footer .footerContainer .socialMedia ul li{
 
 
   .mainSection .mainSectionContainer .elements .element1 .element1text h2{
-    width: 19.4rem;
+    width: 25rem;
     margin: 0;
     margin-top: 2.9rem;
-    margin-left: 3.2rem;
+    margin-left: 3rem;
   }
 
 
   .mainSection .mainSectionContainer .elements .element1 .element1text h2 a {
     color: #FFF;
 font-family: Poppins;
-font-size: 2.5rem;
+font-size: 2.4rem;
 font-style: normal;
 font-weight: 700;
 line-height: normal;
 text-transform: uppercase;
+width: 25rem;
   }
 
   .mainSection .mainSectionContainer .elements .element2 .element2text h2{
